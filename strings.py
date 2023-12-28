@@ -1,0 +1,1 @@
+# string methods in python. What can we do with strings or what operations can we carry on it

@@ -53,4 +53,33 @@ example: a = "jerome  "
         output : jeromeburundi
         
 """
+#What we learned
+"""
+1.Different ways of printing
+2. Primary / primitive data types
+3. how to convert from one primitive data type to another
+4. restrictions on adding together strings and integers.
+
+"""
+
+
+# December 27,2023
+
+# What to learn
+
+""""
+0. Operators in python
+1. Operations over strings/ string methods
+2. Getting user input
+3. Advanced data types in pyhton: 
+        - Lists
+        - Tuples
+        - Sets
+        - Dictionaries
+
+4. Conditions
+5. Loops
+"""
+
+
 
