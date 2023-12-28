@@ -56,14 +56,19 @@ example: a = "jerome  "
 #What we learned
 """
 1.Different ways of printing
-2. Primary / primitive data types
+2. Primary / primitive data types( int, strings, float, boolean= [True,False])
 3. how to convert from one primitive data type to another
+
+name = 12
+stringname = str(name)
+intname = int(newname)
+
 4. restrictions on adding together strings and integers.
 
 """
 
 
-# December 27,2023
+# December 28,2023
 
 # What to learn
 
@@ -71,13 +76,14 @@ example: a = "jerome  "
 0. Operators in python
 1. Operations over strings/ string methods
 2. Getting user input
-3. Advanced data types in pyhton: 
+3. Conditions
+4. Advanced data types in pyhton: 
         - Lists
         - Tuples
         - Sets
         - Dictionaries
 
-4. Conditions
+
 5. Loops
 """
 
