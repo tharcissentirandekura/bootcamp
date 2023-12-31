@@ -1,4 +1,5 @@
 """"
+Jerome Bizimana
 Things to use : loops, if, useinput, 
 1. ask a user to enter how many times to get asked to enter his name 
 2. The check if the second input is eual to the third input
