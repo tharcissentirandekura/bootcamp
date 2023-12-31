@@ -21,11 +21,16 @@ userInput = int(input('Trial Number: '))
 # else:
 #     print("Names are different")
 
-# names = []
+names = []
 
-# for i in range(userInput):
-#     name = input("Name: ")
-#     names.append(name)
+for i in range(userInput):
+    name = input("Name: ")
+    names.append(name)
+    for name in names:
+        if name[userInput-1] == name[userInput]:
+            print('Names are same')
+        else:
+            print('Names are different')
 
 #to access an element in list, we use indexes
 #elements in lists are ordered
@@ -36,8 +41,8 @@ ex: to get the nth element we do , name[n-1]
 we can also use slicing, 3rd element : name[3-1:3]
 """
 
-for i in range(0,userInput + 5,5):
-    print(i)
+#for i in range(0,userInput + 5,5):
+    #print(i)
 """
 general ways :
 for i in range(start,stop,step)
