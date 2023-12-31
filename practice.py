@@ -26,11 +26,11 @@ names = []
 for i in range(userInput):
     name = input("Name: ")
     names.append(name)
-    for name in names:
-        if name[userInput-1] == name[userInput]:
-            print('Names are same')
-        else:
-            print('Names are different')
+
+if names[userInput-2] == names[userInput-1]:
+    print('Names are same')
+else:
+    print('Names are different')
 
 #to access an element in list, we use indexes
 #elements in lists are ordered
