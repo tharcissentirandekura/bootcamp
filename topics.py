@@ -1,6 +1,7 @@
-# syntax 
-# conditions
+#syntax 
+#conditions
 #loops
+
 #functions
 #classes
 #recursion

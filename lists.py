@@ -97,6 +97,10 @@ while i < length - 1: # loop condition: length is : 4; -1 < 4 which is True
 print("Prime numbers :",primes)
 
 """
+
+# how to find the size of the list
+data = [1,2,3,[1,3,"name"],{"name":"Tharcisse"}]
+
     
 
 
