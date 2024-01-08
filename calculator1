@@ -1,0 +1,20 @@
+print('Welcome to the app calculator')
+number_1 = int(input("Enter the first number:"))
+operand = input("Choose the operation you want to perform")
+
+number_2 = int(input("Enter the second number:"))
+if operand == "+":
+    print("you selected addition")
+    answer = number_1 + number_2
+elif operand == "*":
+    print("you selected multiplication")
+    answer = number_1 * number_2
+
+elif operand == "/":
+    print("You selected division")
+    answer = number_1 / number_2
+
+elif operand == "-":
+    print("You selected subtraction")
+    answer = number_1 - number_2
+print("The result is",answer)
