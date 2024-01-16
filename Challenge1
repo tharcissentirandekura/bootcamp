@@ -1,15 +1,29 @@
-list_numbers = [1,2,3,5,7,8,11,12,15,17,19,21,25,29]
+#list_numbers = [1,2,3,5,7,8,11,12,15,17,19,21,25,29]
 #print(sum(list_numbers))
+""""
 d=2
 even_numbers = []
-while d<=2:
-    for number in list_numbers:
-        if number % d==0:
-            even_numbers.append(number)
-            number=number/d
-        else:
-            
+for number in list_numbers:
+    if number % d==0:
+        even_numbers.append(number)
+        number=number/d
 print("My even numbers are:",even_numbers)
+"""
+""""
+list_numbers.reverse()
+print("Your reversed list is:",list_numbers)
+"""
+name = input("enter the name:")
+name_list = [ "Jerome", "Tharcisse", "Kagabo", "James","Kevin"]
+for i in name_list:
+    if i == name:
+        print("Your name is listed")
+        
+    else:
+        print("your name is not listed")
+        
+
+
         
             
 
